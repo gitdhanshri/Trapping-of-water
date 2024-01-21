@@ -75,7 +75,8 @@ return res;
 }
 int main()
 {
-    int arr[]={3,0,1,2,5};
+    // int arr[]={4,1,1,4};//6
+    int arr[]={3,2,0,6,3,1,5};
     int size=sizeof(arr)/sizeof(arr[0]);
     cout<<"\n";
     int collect_water=count_trap_water(arr,size);
